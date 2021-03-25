@@ -10,6 +10,10 @@
     clear: both;
 }
 
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
 header{
     background-color: rgb(151, 255, 255);
     width: 100%;
@@ -20,6 +24,7 @@ header{
     
     width: 85%;
     margin:auto;
+    
 }
 
 .language_contact{
@@ -77,6 +82,7 @@ header{
 
 .link_utili{
     float: right;
+    padding-top:25px;
     
 }
 
@@ -90,7 +96,52 @@ select{
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
+    height: 650px;
+    position: relative;
     
-    height: 550px;
 }
 
+.container2{
+  width: 85%;
+  position: relative;
+  margin:auto;
+  
+}
+
+.presentazione{
+     width: 50%;
+     height: 50%;
+     position: absolute;
+     top:50px;
+     left: 0;
+     font-size: 22px;
+ }
+
+.presentazione p{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.presentazione a{
+    text-decoration: none;
+    margin-top:20px;
+    margin-bottom: 20px;
+    padding:20px;
+}
+
+.presentazione h6{
+    margin-top: 60px;
+}
+
+.grey_block{
+    
+    bottom: 0;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(175, 169, 169);
+    border-top:2px solid black;
+    border-bottom: 2px solid black;
+    position: absolute;
+    bottom: 0;
+
+}
