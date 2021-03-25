@@ -4,7 +4,7 @@
     margin: 0;
 }
 
-.cleafix::after{
+.clearfix::after{
     content: "";
     display: table;
     clear: both;
@@ -17,9 +17,80 @@ header{
 }
 
 .container{
+    
     width: 85%;
-    height: 100%;
-    background-color: darkgoldenrod;
-    margin:auto
-
+    margin:auto;
 }
+
+.language_contact{
+  float: left;   
+  height: 40px;
+   margin-top: 10px;
+}
+
+.search_login_get{
+    float: right;
+    margin-top: 20px;
+    height: 40px;
+}
+
+.imm_search{
+    width: 10px;
+    height: 10px;
+}
+
+.tratto_ver{
+    padding-right:5px ;
+    padding-left: 5px;
+}
+
+.language_contact a, .search_login_get a{
+    text-decoration: none;
+}
+
+.white{
+    background-color: white;
+     width: 100%;
+     border-top: 1px solid black;
+}
+
+.login_button{
+    background-color: white;
+    padding: 10px 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.get_button{
+    background-color: green;
+    padding: 10px 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+.set_logo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.link_utili{
+    float: right;
+    
+}
+
+select{
+    border-style: none;
+    background-color:transparent;
+}
+
+.jumbotron{
+    background-image: url(./hubspot/img/jumbotron.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    height: 550px;
+}
+
