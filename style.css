@@ -30,8 +30,16 @@ header{
 .language_contact{
   float: left;   
   height: 40px;
-   margin-top: 10px;
+  margin-top: 10px;
 }
+
+.spunta{
+    font-size: 18px;
+    padding-bottom: 30px;
+    padding-left: 5px;
+    color: blue;
+}
+
 
 .search_login_get{
     float: right;
@@ -69,7 +77,7 @@ header{
 }
 
 .get_button{
-    background-color: green;
+    background-color: rgb(18, 187, 18);
     padding: 10px 10px;
     color: white;
     border-radius: 5px;
@@ -83,13 +91,15 @@ header{
 .link_utili{
     float: right;
     padding-top:25px;
-    
 }
 
-select{
-    border-style: none;
-    background-color:transparent;
+.link_utili a{
+    text-decoration: none;
+    padding-right: 5px;
+    padding-left: 10px;
 }
+
+
 
 .jumbotron{
     background-image: url(./hubspot/img/jumbotron.png);
@@ -114,8 +124,11 @@ select{
      position: absolute;
      top:50px;
      left: 0;
-     font-size: 22px;
+     font-size: 25px;
  }
+
+ 
+
 
 .presentazione p{
     margin-top: 20px;
@@ -124,9 +137,10 @@ select{
 
 .presentazione a{
     text-decoration: none;
-    margin-top:20px;
-    margin-bottom: 20px;
-    padding:20px;
+    margin-top:28px;
+    margin-bottom: 28px;
+    padding:28px;
+    font-size: 18px;
 }
 
 .presentazione h6{
@@ -144,4 +158,15 @@ select{
     position: absolute;
     bottom: 0;
 
+}
+/* fine header */
+
+
+/* main */
+.powerfull{
+    height: 800px;
+}
+
+.cube_img{
+    display: inline;
 }
