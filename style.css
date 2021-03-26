@@ -61,6 +61,11 @@ header{
     text-decoration: none;
 }
 
+.search_login_get img{
+    width: 15px;
+    height: 15px;
+}
+
 .white{
     background-color: white;
      width: 100%;
@@ -119,12 +124,12 @@ header{
 }
 
 .presentazione{
-     width: 50%;
+     width: 41%;
      height: 50%;
      position: absolute;
      top:50px;
      left: 0;
-     font-size: 25px;
+     font-size: 20px;
  }
 
  
@@ -133,14 +138,15 @@ header{
 .presentazione p{
     margin-top: 20px;
     margin-bottom: 40px;
+    line-height: 33px;
 }
 
 .presentazione a{
     text-decoration: none;
-    margin-top:28px;
-    margin-bottom: 28px;
-    padding:28px;
+  
+    padding:20px;
     font-size: 18px;
+
 }
 
 .presentazione h6{
@@ -164,9 +170,10 @@ header{
 
 /* main */
 .powerfull{
-    height: 800px;
+   background-color: chartreuse;
 }
 
 .cube_img{
-    display: inline;
+    display:block;
+    margin: auto;
 }
