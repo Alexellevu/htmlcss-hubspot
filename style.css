@@ -355,6 +355,38 @@ margin-right: .625rem;
 }
 
 .statistiche{
-    background-color:rgb(118, 118, 149);
-    height: 200px;
+    background-color:rgb(141, 141, 170);
+    height: 480px;
+    text-align: center;
+    color:white;
+}
+
+.container3{
+    
+    width: 75%;
+    margin:auto;
+    padding-top: 4%;
+    
+}
+
+.column2{
+    float:left;
+    width: 20%;
+    height: 100px;
+    text-align: center;
+    border-right: 1px solid white;
+    border-bottom:1px solid white;
+    padding-top:1.5%;
+}
+
+.row,:last-child{
+    border-right:none;
+}
+
+.no_border{
+    border-bottom: none;
+}
+
+.statistiche .row{
+    margin-left: 10%;
 }
