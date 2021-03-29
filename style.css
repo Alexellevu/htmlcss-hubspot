@@ -442,15 +442,50 @@ margin-right: .625rem;
     margin-bottom: 20px;
 }
 
+.start_grow p{
+    margin-bottom: 60px;
+    
+}
+
+.start_grow h6{
+    margin-top: 40px;
+}
+
+.start_grow a{
+    font-size: 15px;
+    padding: 20px 35px;
+}
+
     
 .img_grow{
     width: 50%;
+    height: 300px;
     float: right;
+    background-image: url(./hubspot/img/woman.webp);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+}
+/* fine main */
+
+
+footer{
+    margin-top: 45px;
+    background-color:rgb(50, 50, 90);
 }
 
-.img_woman{
-    width: 100%;
-    height: 10%;
+.footer_column{
+    color:white;
+    text-align: left;
+    width: 18%;
+    margin-right:5% ;
+    float: left;
+}
+
+.footer_column li{
+    list-style: none;
+    margin-top: 15px;
+    
     
 }
 
