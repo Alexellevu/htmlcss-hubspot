@@ -390,3 +390,68 @@ margin-right: .625rem;
 .statistiche .row{
     margin-left: 10%;
 }
+.customers{
+    width: 40%;
+    text-align: center;
+    float: left;
+    margin-bottom: 30px;
+}
+
+
+    .customers p{
+    width: 180px;
+    margin: auto;
+    font-size: 15px;
+    text-align: left;
+    line-height: 25px;
+}
+
+.customers h2{
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+.partners_logs{
+    width: 55%;
+    height: 100px;
+    float: right;
+}
+
+.partners_logs li{
+    list-style: none;
+    display: inline-block;
+}
+
+.partners_img{
+    height: 22px;
+    width: 100px;
+    margin-right: 15px;
+    margin: 10px;
+    
+}
+
+.start_grow{
+    width: 50%;
+    margin-top: 30px;
+    float: left;
+}
+
+.start_grow h2{
+
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+    
+.img_grow{
+    width: 50%;
+    float: right;
+}
+
+.img_woman{
+    width: 100%;
+    height: 10%;
+    
+}
+
+
