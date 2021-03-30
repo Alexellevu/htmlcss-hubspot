@@ -14,19 +14,18 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+/* header */
 header{
     background-color: rgb(151, 255, 255);
     width: 100%;
-    
 }
 
 .container{
-    
     width: 85%;
     margin:auto;
-    
 }
 
+/* nav bar 1 */
 .language_contact{
   float: left;   
   height: 40px;
@@ -66,6 +65,7 @@ header{
     height: 15px;
 }
 
+/* nav bar 2 bianca */
 .white{
     background-color: white;
      width: 100%;
@@ -105,7 +105,7 @@ header{
 }
 
 
-
+/* jumbotron con testo */
 .jumbotron{
     background-image: url(./hubspot/img/jumbotron.png);
     background-size:cover;
@@ -150,6 +150,7 @@ header{
     margin-top: 60px;
 }
 
+/* riga jumbotron */
 .grey_block{
     
     bottom: 0;
@@ -164,19 +165,19 @@ header{
 }
 /* fine header */
 
-/* main */
+/* MAIN */
 .sfondo1{
     background-color: lightcyan;
     height: 1190px;
 }
-
+/* 1°sezione main */
 .powerfull{
    text-align: center;
    padding-top: 20px;
    padding-bottom: 20px;
    
 }
-
+/* blocco powerfull con img +txt */
 .cube_img{
     height: 300px;
     width: 300px;
@@ -191,6 +192,7 @@ header{
     
 }
 
+/* blocco freeHub */
 .free_hub{ 
     margin:auto;
     height: 20%;
@@ -279,6 +281,8 @@ margin-bottom: -0.3125rem;
 margin-right: .625rem;
 }
 
+/* blocco a tre colonne */
+
 .column_container{
     width: 79%;
     margin: auto;
@@ -354,6 +358,7 @@ margin-right: .625rem;
     
 }
 
+/* seconda parte main */
 .statistiche{
     background-color:rgb(141, 141, 170);
     height: 480px;
@@ -368,7 +373,7 @@ margin-right: .625rem;
     padding-top: 4%;
     
 }
-
+/* definizione delle colonne */
 .column2{
     float:left;
     width: 20%;
@@ -390,6 +395,9 @@ margin-right: .625rem;
 .statistiche .row{
     margin-left: 10%;
 }
+
+/* inzio sezione customers  */
+
 .customers{
     width: 40%;
     text-align: center;
@@ -397,8 +405,7 @@ margin-right: .625rem;
     margin-bottom: 30px;
 }
 
-
-    .customers p{
+.customers p{
     width: 180px;
     margin: auto;
     font-size: 15px;
@@ -468,12 +475,13 @@ margin-right: .625rem;
 }
 /* fine main */
 
-
+/* inizio FOOTER */
 footer{
     margin-top: 45px;
     background-color:rgb(50, 50, 90);
 }
 
+/* prima riga Footer */
 .footer_column{
     color:white;
     text-align: left;
@@ -502,6 +510,7 @@ footer{
     text-decoration:none;
 }
 
+/* seconda riga footer, lingue */
 .language{
     color: white;
     text-align: center;
@@ -516,6 +525,7 @@ footer{
     display: inline;
 }
 
+/* parte finale footer */
 .logo_final{
     width: 50%;
     height: 60px;
