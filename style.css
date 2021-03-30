@@ -498,7 +498,45 @@ footer{
 }
 
 .contact_support a{
-    color::rgb(50, 50, 90);
+    color:rgb(50, 50, 90);
     text-decoration:none;
 }
+
+.language{
+    color: white;
+    text-align: center;
+    margin-top:30px;
+    
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+}
+
+.language li{
+    list-style: none;
+    display: inline;
+}
+
+.logo_final{
+    width: 50%;
+    height: 60px;
+    float: left;
+    margin-top: 40px;
+}
+
+.logo_final h5{
+    color: white;
+}
+
+.privacy{
+float: right;
+color: white;
+margin-top:40px;
+}
+
+.privacy span{
+    margin-left: 20px;
+    
+}
+
+
 
